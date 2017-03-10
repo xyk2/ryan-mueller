@@ -1,0 +1,331 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans:300,700|Open+Sans+Condensed:400,700|Merriweather:300,400,700");
+
+@OFF_WHITE: #d4dde0;
+
+body {
+	background-color: #e8e8e8;
+	background-image: url('/images/bg02.png');
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #565656;
+}
+
+a {
+	color: #c94663;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #444444;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size:45px;
+}
+
+#page-content-wrapper {
+	p, ul li, strong {
+		font-family: 'Open Sans', sans-serif;
+		font-size:15px;
+		line-height:1.7;
+	}
+}
+
+h2 a, h4 a, h5 a, h6 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#sidebar-wrapper {
+	color: #aaa;
+    color: rgba(255, 255, 255, 0.55);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+    padding: 1em 1.35em 1em 1.15em;
+    background: linear-gradient(rgba(52, 73, 94, 0.21), rgb(52, 73, 94)), url(/images/14964846804_52bbc8eeb4_o-sidebar.jpg);
+        box-shadow: inset -0.1em 0em 0.35em 0em rgba(0, 0, 0, 0.15);
+}
+
+
+#profile_pic {
+    max-width: 80%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+
+#wrapper.toggled {
+	#sidebar-wrapper {
+		padding: 0;
+	}
+}
+
+#titleBar {
+	display: none;
+	height:42px;
+	background: #34495e url(/images/bg01.png);
+	position: relative;
+	.toggle {
+	    width: 50px;
+	    height: 28px;
+	    position: absolute;
+	    left: 10px;
+	    top: 7px;
+	    background: rgba(243, 156, 18,1.0) url(/images/bg01.png);
+	    text-align: center;
+	    color: white;
+	    line-height: 28px;
+	    border-radius:3px;
+	}
+	.title {
+	    display: block;
+	    line-height: 40px;
+	    letter-spacing: 0.1em;
+	    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+	    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+	    text-align: center;
+	    a {
+	    	color: #ffffff;
+	    	font-size: 1.25em;
+	    	font-family: 'Open Sans Condensed', sans-serif;
+	    	font-weight: 700;
+	    }
+	}
+}
+
+
+
+#logo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    a {
+        display: block;
+        background-color: rgba(243, 156, 18,1.0);
+        background-image: url(/images/bg01.png);
+        padding: 0.4em 0.25em;
+        border-radius: 0.2em;
+        text-align: center;
+        box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+nav li {
+	border-top: solid 1px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+    padding: 0;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.1em;
+	
+	-moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	transition: background-color .25s ease-in-out, color .25s ease-in-out;
+
+	a, a:focus {
+		color: @OFF_WHITE;
+	    display: block;
+	    padding: 0.4em 1em 0.4em 1em;
+	    text-decoration: none;
+	    outline: 0;
+	    -moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	    -webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	    -ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+	    transition: background-color .25s ease-in-out, color .25s ease-in-out;
+
+	}
+	a:hover {
+		color: white;
+	}
+}
+
+nav li:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.guardian {
+	font-family: Merriweather !important;
+	font-weight: 300;
+}
+
+
+img {
+	max-width:100%;
+}
+
+#head_quote_container {
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	>div {
+		padding: 0px 15px;
+		position: relative;
+		background-color: rgba(52, 73, 94, 0.50);
+		box-shadow: 0 0px 25px 17px rgba(52, 73, 94, 0.50);
+		left: -50%;
+		border-radius: 24px;
+	}
+	.head_quote {
+		font-size: 20px;
+		text-align: center;
+		text-shadow: 0px 0px 10px #000000;
+		color: #eeeeee;
+	}
+}
+
+
+.radar_table {
+    font-size: 12px;
+    font-family: Arial;
+    td {
+    	padding: 0.2em 0.5em !important;
+    	line-height: 1.5 !important;
+    }
+    .highlight {
+	    color: #c94663;
+	}
+}
+
+.block_heading {
+	&.sectioned {
+		border-bottom: 3px solid #34495e;
+		margin-bottom: 15px;
+	}
+
+	h1, h2, h3 {
+		background-color: #34495e;
+		display: inline-block;
+		padding: 0.15em 0.6em;
+		color: #eeeeee;
+		margin-bottom: 0px;
+	}
+}
+
+.badge {
+	background-color: #34495e;
+	color: rgba(255,255,255,0.8);
+}
+
+blockquote {
+	border-left: 5px solid #34495e;
+	width:80%;
+	margin: 0 auto;
+	p {
+		font-family: Merriweather !important;
+		font-weight: 300 !important;
+		font-size: 0.8em !important;
+	}
+	&.references {
+		width: 100%;
+		p {
+			font-size: 0.65em !important;
+			line-height: 1.3 !important;
+		}
+
+	}
+}
+
+footer {
+	h4 {
+		color: #eeeeee;
+		opacity: 0.8;
+		font-family: Source Sans Pro;
+		font-weight: normal;
+		margin: 5px 0;
+	}
+}
+
+
+#wrapper.toggled footer {
+	display: none;
+}
+#wrapper.toggled #head_quote_container {
+	display: none;
+}
+
+.btn-primary {
+	background-color: #34495e;
+	border-radius: 0px;
+	border: 1px solid #34495e;
+}
+
+button:focus { outline:0 !important; }
+
+
+@media(max-width:768px) {
+    #sidebar-wrapper {
+        padding: 0;
+        position: fixed;
+        #logo {
+        	padding: 0 15px;
+        }
+    }
+
+    #titleBar {
+    	display: block;
+    }
+
+    #head_quote_container {
+    	bottom: 10px;
+    	left: 30%;
+    	>div {
+    		padding: 0px 15px;
+    		position: relative;
+    		left: -20%;
+    	}
+    	.head_quote {
+    		font-size: 15px;
+    	}
+    }
+}
+
+
+
+
+
+/* OVERRIDES */
+#wrapper.toggled footer {
+	display: block;
+}
+#wrapper.toggled #head_quote_container {
+	display: block;
+}
+#wrapper.toggled {
+    padding-left: 0px !important;
+}
+
+#sidebar-wrapper {
+    padding: 0;
+    position: fixed;
+    #logo {
+    	padding: 0 15px;
+    }
+}
+
+#titleBar {
+	display: block;
+}
+
+#head_quote_container {
+	bottom: 10px;
+	left: 30%;
+	>div {
+		padding: 0px 15px;
+		position: relative;
+		left: -20%;
+	}
+	.head_quote {
+		font-size: 15px;
+	}
+}

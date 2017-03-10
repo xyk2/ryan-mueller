@@ -1,0 +1,28 @@
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/simple-sidebar.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet/less" type="text/css" href="/css/styles.less" />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js'></script>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js'></script>
+
+<script>
+$(document).ready(function() {
+$("#titleBar .toggle").click(function(e) {
+e.preventDefault();
+$("#wrapper").toggleClass("toggled");
+//$(".title").toggle();
+});
+});
+</script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->

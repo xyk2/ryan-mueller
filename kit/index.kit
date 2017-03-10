@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- @import "/kit/head.kit" -->
+        <title>Home | Ryan Mueller</title>
+    </head>
+
+    <body>
+        <div id="wrapper" class='toggled'>
+            <!-- @import "/kit/_sidebar_wrapper.kit" -->
+    
+            <div style='position:relative'>
+                <img src="/images/14964846804_52bbc8eeb4_o.jpg" style="max-width:100%;">
+                <div id='head_quote_container'>
+                    <div style=''>
+                        <h5 class='guardian head_quote'>
+                            <i class="fa fa-quote-left" style='opacity:0.8;'></i>
+                                Many leaders do not ground themselves in their life stories. Instead they try to bury their past and put on a new mask.
+                            <i class="fa fa-quote-right" style='opacity:0.8;'></i>
+                        </h5>
+                        <h5 class='guardian head_quote' style='text-align: right;font-size:17px;font-style:italic'>Bill George</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="page-content-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-push-1" style='text-align: center;'>
+                            <p>We find ourselves immersed in a time marked by two contradictory forces, interdependence and diversity. The tensions from these twin forces are rapidly rendering traditional leadership behaviors obsolete (Lipman-Blumen, 1996, p. 3). Instead, we must broaden our leadership repertoire of related behaviors to maximize the use of self and others as instruments for accomplishing goals. The Connective Leadership Model outlined below lists 3 sets of achieving styles that define a connective leader; direct, instrumental, and relational. Beneath this model, you will find composites graphs illustrating the results of completed Individual and 360 degree Achieving Styles Inventories (ASI). The individual ASI shares my own perceived leadership strengths. The group (360) ASI illustrates my leadership strengths through the lens of colleagues and supervisors. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-lg-push-3">
+                            <img src="/images/legend.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <canvas id="indiv_inventory"></canvas>
+                        </div>
+                        <div class="col-lg-6">
+                            <canvas id="composite_graph"></canvas>
+                            <table class='table table-bordered table-sm radar_table'>
+                                <tbody>
+                                    <tr>
+                                        <td>Power: 6.5 <span class="highlight">(0.3)</span></td>
+                                        <td>Competitive: 5.3 <span class="highlight">(1.4)</span></td>
+                                        <td>Contributory: 4.9 <span class="highlight">(1.1)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Intrinsic: 6.0 <span class="highlight">(0.8)</span></td>
+                                        <td>Social: 5.2 <span class="highlight">(0.3)</span></td>
+                                        <td>Personal: 4.6 <span class="highlight">(0.9)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Collaborative: 5.6 <span class="highlight">(0.7)</span></td>
+                                        <td>Entrusting: 5.2 <span class="highlight">(0.6)</span></td>
+                                        <td>Vicarious: 4.6 <span class="highlight">(0.4)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan='3'>Cumulative Mean: 5.30 <span class="highlight">(0.3)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan='3'>5 records are in this evaluation composite (3 male, 2 female).<br>
+                                        Average Age: 46.0 <span class="highlight">(12.4)</span><br>
+                                        Average Education: 17.2 <span class="highlight">(1.0)</span><br>
+                                        <span class="highlight">* Numbers in parenthesis are the Standard Deviation</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+            <!-- @import "/kit/footer.kit" -->
+
+        </div>
+        <!-- /#wrapper -->
+        <script>
+        var indiv_inventory = document.getElementById("indiv_inventory");
+        var composite_graph = document.getElementById("composite_graph");
+        Chart.defaults.global.defaultFontColor = "#34495e";
+        Chart.defaults.global.defaultFontFamily = "Source Sans Pro";
+
+        var indiv_inventory_data = {
+            labels: ["Intrinsic (5.4)", "Competitive (6.2)  ", "Power (6.0)", "Personal (4.6)", "Social (5.2)", "Entrusting (4.2)", "Collaborative (4.2)", "Contributory (4.0)", "Vicarious (4.4)"],
+            datasets: [
+                {
+                    backgroundColor: "rgba(243, 156, 18,0.3)",
+                    borderColor: "rgba(243, 156, 18,1.0)",
+                    pointBackgroundColor: "rgba(243, 156, 18,1.0)",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(243, 156, 18,1.0)",
+                    pointRadius: 5,
+                    pointHitRadius: 5,
+                    pointHoverRadius: 5,
+                    data: [5.4, 6.2, 6.0, 4.6, 5.2, 4.2, 4.2, 4.0, 4.4]
+                }
+            ]
+        };
+        var composite_graph_data = {
+            labels: ["Intrinsic (6.0)", "Competitive (5.3)  ", "Power (6.5)", "Personal (4.6)", "Social (5.2)", "Entrusting (5.2)", "Collaborative (5.6)", "Contributory (4.9)", "Vicarious (4.6)"],
+            datasets: [
+                {
+                    backgroundColor: "rgba(243, 156, 18,0.3)",
+                    borderColor: "rgba(243, 156, 18,1.0)",
+                    pointBackgroundColor: "rgba(243, 156, 18,1.0)",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(243, 156, 18,1.0)",
+                    pointRadius: 5,
+                    pointHitRadius: 5,
+                    pointHoverRadius: 5,
+                    data: [6.0, 5.3, 6.5, 4.6, 5.2, 5.2, 5.6, 4.9, 4.6]
+                }
+            ]
+        };
+
+        new Chart(indiv_inventory, {type: "radar", data: indiv_inventory_data, options: {
+                    title: {
+                        display: true,
+                        text: "Individual Inventory (L-BL ASI)",
+                        fontSize: 18,
+                        padding: 0
+                    },
+                    legend: {
+                        display: false
+                    },
+                    startAngle: 20,
+                    scale: {
+                        reverse: false,
+                        ticks: {
+                            beginAtZero: true,
+                            showLabelBackdrop: false
+                        }
+                    }
+            }
+        });
+
+        new Chart(composite_graph, {type: "radar", data: composite_graph_data, options: {
+                    title: {
+                        display: true,
+                        text: "Composite Graph (360° ASI): Group 2089",
+                        fontSize: 18,
+                        padding: 0
+                    },
+                    legend: {
+                        display: false
+                    },
+                    startAngle: 20,
+                    scale: {
+                        reverse: false,
+                        ticks: {
+                            beginAtZero: true,
+                            showLabelBackdrop: false
+                        }
+                    }
+            }
+        });
+        </script>
+
+</body>
+
+</html>
