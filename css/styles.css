@@ -63,7 +63,7 @@ h6 a {
 }
 #titleBar {
   display: none;
-  height: 42px;
+  height: 60px;
   background: #34495e url(/images/bg01.png);
   position: relative;
 }
@@ -81,15 +81,13 @@ h6 a {
 }
 #titleBar .title {
   display: block;
-  line-height: 40px;
+  padding-top: 3px;
   letter-spacing: 0.1em;
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
 #titleBar .title a {
   color: #ffffff;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
@@ -232,6 +230,20 @@ footer h4 {
 button:focus {
   outline: 0 !important;
 }
+.horizontal-sidebar li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.horizontal-sidebar li a {
+  color: #EEEEEE;
+  opacity: 0.9;
+}
+.horizontal-sidebar li a:hover {
+  text-decoration: underline;
+}
+.horizontal-sidebar li:not(:last-child) {
+  border-right: 2px solid #f39c12;
+}
 @media (max-width: 768px) {
   #sidebar-wrapper {
     padding: 0;
@@ -266,6 +278,9 @@ button:focus {
 #wrapper.toggled {
   padding-left: 0px !important;
 }
+#wrapper {
+  padding-left: 0;
+}
 #sidebar-wrapper {
   padding: 0;
   position: fixed;
@@ -273,17 +288,20 @@ button:focus {
 #sidebar-wrapper #logo {
   padding: 0 15px;
 }
+#page-content-wrapper {
+  padding: 15px 0;
+}
 #titleBar {
   display: block;
 }
 #head_quote_container {
   bottom: 10px;
-  left: 30%;
+  left: 50%;
 }
 #head_quote_container > div {
   padding: 0px 15px;
   position: relative;
-  left: -20%;
+  left: -50%;
 }
 #head_quote_container .head_quote {
   font-size: 15px;

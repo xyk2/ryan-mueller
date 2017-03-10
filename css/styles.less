@@ -68,7 +68,7 @@ h2 a, h4 a, h5 a, h6 a {
 
 #titleBar {
 	display: none;
-	height:42px;
+	height:60px;
 	background: #34495e url(/images/bg01.png);
 	position: relative;
 	.toggle {
@@ -85,14 +85,12 @@ h2 a, h4 a, h5 a, h6 a {
 	}
 	.title {
 	    display: block;
-	    line-height: 40px;
+	    padding-top: 3px;
 	    letter-spacing: 0.1em;
-	    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-	    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
 	    text-align: center;
 	    a {
 	    	color: #ffffff;
-	    	font-size: 1.25em;
+	    	font-size: 1.5em;
 	    	font-family: 'Open Sans Condensed', sans-serif;
 	    	font-weight: 700;
 	    }
@@ -262,6 +260,24 @@ footer {
 
 button:focus { outline:0 !important; }
 
+.horizontal-sidebar {
+	li {
+		display:inline-block;
+		padding: 0 10px;
+	}
+	li a {
+		color: #EEEEEE;
+		opacity: 0.9;
+	}
+	li a:hover {
+		text-decoration: underline;
+	}
+	li:not(:last-child) {
+		border-right: 2px solid rgba(243, 156, 18,1.0);
+	}
+
+
+}
 
 @media(max-width:768px) {
     #sidebar-wrapper {
@@ -305,6 +321,10 @@ button:focus { outline:0 !important; }
     padding-left: 0px !important;
 }
 
+#wrapper {
+	padding-left: 0;
+}
+
 #sidebar-wrapper {
     padding: 0;
     position: fixed;
@@ -312,18 +332,20 @@ button:focus { outline:0 !important; }
     	padding: 0 15px;
     }
 }
-
+#page-content-wrapper {
+	padding: 15px 0;
+}
 #titleBar {
 	display: block;
 }
 
 #head_quote_container {
 	bottom: 10px;
-	left: 30%;
+	left: 50%;
 	>div {
 		padding: 0px 15px;
 		position: relative;
-		left: -20%;
+		left: -50%;
 	}
 	.head_quote {
 		font-size: 15px;
