@@ -88,6 +88,12 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/culmination-paper.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/culmination-paper.html",
+		"oF": 0
+		},
 	"\/fonts\/glyphicons-halflings-regular.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -323,12 +329,6 @@
 		"oAP": "\/leadership-philosophy.html",
 		"oF": 0
 		},
-	"\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/LICENSE",
-		"oF": 0
-		},
 	"\/literature-review.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -346,24 +346,6 @@
 		"oA": 2,
 		"oAP": "\/personal-growth-plan.html",
 		"oF": 0
-		},
-	"\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/resume.html": {
 		"ft": 8192,
