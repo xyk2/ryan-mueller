@@ -30,6 +30,9 @@ h6 {
 h1 {
   font-size: 45px;
 }
+#page-content-wrapper {
+  padding: 10px 0;
+}
 #page-content-wrapper p,
 #page-content-wrapper ul li,
 #page-content-wrapper strong {
@@ -87,7 +90,7 @@ h6 a {
 }
 #titleBar .title a {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
@@ -159,7 +162,7 @@ img {
   border-radius: 24px;
 }
 #head_quote_container .head_quote {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   text-shadow: 0px 0px 10px #000000;
   color: #eeeeee;
@@ -294,16 +297,7 @@ button:focus {
 #titleBar {
   display: block;
 }
-#head_quote_container {
-  bottom: 10px;
-  left: 50%;
-}
-#head_quote_container > div {
-  padding: 0px 15px;
-  position: relative;
-  left: -50%;
-}
-#head_quote_container .head_quote {
-  font-size: 15px;
+#wrapper.toggled #page-content-wrapper {
+  position: static;
 }
 /*# sourceMappingURL=styles.css.map */

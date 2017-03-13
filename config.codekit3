@@ -275,6 +275,12 @@
 		"oAP": "\/competencies.html",
 		"oF": 0
 		},
+	"\/kit\/culmination-paper.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/culmination-paper.html",
+		"oF": 0
+		},
 	"\/kit\/footer.kit": {
 		"ft": 2048,
 		"oA": 1,
@@ -327,6 +333,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/literature-review.html",
+		"oF": 0
+		},
+	"\/personal-growth-plan copy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/personal-growth-plan copy.html",
 		"oF": 0
 		},
 	"\/personal-growth-plan.html": {
