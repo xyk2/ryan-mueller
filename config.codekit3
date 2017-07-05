@@ -266,61 +266,61 @@
 	"\/kit\/_head.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/_head.html",
+		"oAP": "\/kit\/_head.html",
 		"oF": 0
 		},
 	"\/kit\/_sidebar_wrapper.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/_sidebar_wrapper.html",
+		"oAP": "\/kit\/_sidebar_wrapper.html",
 		"oF": 0
 		},
 	"\/kit\/competencies.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/competencies.html",
+		"oAP": "\/kit\/competencies.html",
 		"oF": 0
 		},
 	"\/kit\/culmination-paper.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/culmination-paper.html",
+		"oAP": "\/kit\/culmination-paper.html",
 		"oF": 0
 		},
 	"\/kit\/footer.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/footer.html",
+		"oAP": "\/kit\/footer.html",
 		"oF": 0
 		},
 	"\/kit\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/kit\/index.html",
 		"oF": 0
 		},
 	"\/kit\/leadership-philosophy.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/leadership-philosophy.html",
+		"oAP": "\/kit\/leadership-philosophy.html",
 		"oF": 0
 		},
 	"\/kit\/literature-review.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/literature-review.html",
+		"oAP": "\/kit\/literature-review.html",
 		"oF": 0
 		},
 	"\/kit\/personal-growth-plan.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/personal-growth-plan.html",
+		"oAP": "\/kit\/personal-growth-plan.html",
 		"oF": 0
 		},
 	"\/kit\/resume.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/resume.html",
+		"oAP": "\/kit\/resume.html",
 		"oF": 0
 		},
 	"\/leadership-philosophy.html": {
@@ -2112,10 +2112,10 @@
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "\/",
+		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 1
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
